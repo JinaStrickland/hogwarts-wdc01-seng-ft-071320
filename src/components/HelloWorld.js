@@ -1,7 +1,10 @@
 import React, { Fragment } from "react";
 
 class HelloWorld extends React.Component {
-  render() {
+  
+  render(props) {
+
+    
     return (
       <div>
         <h1>Hello World</h1>
